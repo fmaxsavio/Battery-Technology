@@ -1,6 +1,6 @@
 const questions = [
   {
-        question: "What is the primary function of a battery?",
+        q: "What is the primary function of a battery?",
         options: [
             "Store mechanical energy",
             "Convert chemical energy into electrical energy",
@@ -10,7 +10,7 @@ const questions = [
         answer: 1
     },
     {
-        question: "Which of the following is a rechargeable battery type?",
+        q: "Which of the following is a rechargeable battery type?",
         options: [
             "Alkaline battery",
             "Lithium-ion battery",
@@ -20,7 +20,7 @@ const questions = [
         answer: 1
     },
     {
-        question: "What is the typical voltage of a single Li-ion battery cell?",
+        q: "What is the typical voltage of a single Li-ion battery cell?",
         options: [
             "1.2V",
             "3.7V",
@@ -30,7 +30,7 @@ const questions = [
         answer: 1
     },
     {
-        question: "Which electrolyte is commonly used in lead-acid batteries?",
+        q: "Which electrolyte is commonly used in lead-acid batteries?",
         options: [
             "Sulfuric acid",
             "Hydrochloric acid",
@@ -40,7 +40,7 @@ const questions = [
         answer: 0
     },
     {
-        question: "Which battery chemistry is most commonly used in electric vehicles (EVs)?",
+        q: "Which battery chemistry is most commonly used in electric vehicles (EVs)?",
         options: [
             "Nickel-metal hydride",
             "Lead-acid",
@@ -50,7 +50,7 @@ const questions = [
         answer: 2
     },
     {
-        question: "Which of the following is NOT an advantage of lithium-ion batteries?",
+        q: "Which of the following is NOT an advantage of lithium-ion batteries?",
         options: [
             "High energy density",
             "No memory effect",
@@ -60,7 +60,7 @@ const questions = [
         answer: 3
     },
     {
-        question: "Which battery technology is commonly used for grid energy storage?",
+        q: "Which battery technology is commonly used for grid energy storage?",
         options: [
             "Lead-acid",
             "Lithium-ion",
@@ -70,7 +70,7 @@ const questions = [
         answer: 2
     },
     {
-        question: "What does SoC stand for in battery technology?",
+        q: "What does SoC stand for in battery technology?",
         options: [
             "State of Conductivity",
             "State of Charge",
@@ -80,7 +80,7 @@ const questions = [
         answer: 1
     },
     {
-        question: "Which material is commonly used as the anode in lithium-ion batteries?",
+        q: "Which material is commonly used as the anode in lithium-ion batteries?",
         options: [
             "Graphite",
             "Nickel",
@@ -90,7 +90,7 @@ const questions = [
         answer: 0
     },
     {
-        question: "What is the main drawback of lead-acid batteries?",
+        q: "What is the main drawback of lead-acid batteries?",
         options: [
             "High energy density",
             "Low cost",
@@ -100,7 +100,7 @@ const questions = [
         answer: 2
     },
     {
-        question: "What is the main advantage of solid-state batteries over conventional lithium-ion batteries?",
+        q: "What is the main advantage of solid-state batteries over conventional lithium-ion batteries?",
         options: [
             "Higher weight",
             "Lower efficiency",
@@ -110,7 +110,7 @@ const questions = [
         answer: 2
     },
     {
-        question: "Which battery component facilitates ion movement between electrodes?",
+        q: "Which battery component facilitates ion movement between electrodes?",
         options: [
             "Electrolyte",
             "Cathode",
@@ -120,7 +120,7 @@ const questions = [
         answer: 0
     },
     {
-        question: "Which battery chemistry is commonly used in hearing aids?",
+        q: "Which battery chemistry is commonly used in hearing aids?",
         options: [
             "Nickel-metal hydride",
             "Lithium-ion",
@@ -130,7 +130,7 @@ const questions = [
         answer: 3
     },
     {
-        question: "Which battery chemistry is known for its long shelf life and stability?",
+        q: "Which battery chemistry is known for its long shelf life and stability?",
         options: [
             "Alkaline",
             "Lead-acid",
@@ -140,7 +140,7 @@ const questions = [
         answer: 2
     },
     {
-        question: "What is the key benefit of a supercapacitor over a battery?",
+        q: "What is the key benefit of a supercapacitor over a battery?",
         options: [
             "Higher energy density",
             "Lower cost",
@@ -150,7 +150,7 @@ const questions = [
         answer: 2
     },
     {
-        question: "Which factor affects battery life the most?",
+        q: "Which factor affects battery life the most?",
         options: [
             "Temperature",
             "Voltage",
@@ -160,7 +160,7 @@ const questions = [
         answer: 3
     },
     {
-        question: "What is the purpose of a Battery Management System (BMS)?",
+        q: "What is the purpose of a Battery Management System (BMS)?",
         options: [
             "Increase battery weight",
             "Monitor and control battery parameters",
@@ -170,7 +170,7 @@ const questions = [
         answer: 1
     },
     {
-        question: "Which type of battery is most suitable for space applications?",
+        q: "Which type of battery is most suitable for space applications?",
         options: [
             "Alkaline",
             "Nickel-cadmium",
@@ -180,7 +180,7 @@ const questions = [
         answer: 2
     },
     {
-        question: "What causes battery self-discharge?",
+        q: "What causes battery self-discharge?",
         options: [
             "Electrolyte degradation",
             "Internal resistance",
