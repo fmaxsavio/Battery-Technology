@@ -304,10 +304,10 @@ function generatePDF() {
   doc.setFontSize(12);
   doc.setFont("Helvetica", "bold");
   doc.text(20, 20, `Student Details: ${playerName} ${playerName1}`);
-  doc.text(20, 27, "Subject Details: 19EE401 Electromagnetic Theory");
-  doc.text(20, 34, "Assessment & CO : Skill Assessment | CO1");
+  doc.text(20, 27, "Subject Details: Seminar on Battery Technology and Product Development");
+  doc.text(20, 34, "Assessment & CO : Seminar");
   doc.text(20, 41, `Time played: ${timePlayed} seconds`);
-  doc.text(20, 48, "Course Trainer: Mr.F.Max Savio, AP/EEE");
+  doc.text(20, 48, "Event Coordinator: Mr.F.Max Savio, AP/EEE");
   doc.setFontSize(12);
   doc.setFont("Helvetica", "normal");
     // Add each question and the selected answer
